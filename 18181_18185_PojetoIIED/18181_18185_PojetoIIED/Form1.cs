@@ -37,22 +37,70 @@ namespace _18181_18185_PojetoIIED
 
         private void btnIgual_Click(object sender, EventArgs e)
         {
+            bool encerraVal = false;
+            double[] vet = new double[26];
+            foreach(char c in txtVisor.Text.ToCharArray())
+            {
 
+            }
             lblExpres.Text += "Infixa: " + txtVisor.Text + "\n";
         }
 
-        private string converteInfixa (string infix)
+        private string converteInfixa(string infix)
         {
+            string posfix = "";
             PilhaLista<char> pil = new PilhaLista<char>();
-            string ops = "()+_/^";
+            string ops = "()^/*+-";
+            // a+b^(c + 4/2)*(6-8)
             foreach (char c in infix.ToCharArray())
             {
-                if(ops.Contains(c))
+                if (ops.Contains(c))
                 {
-                    pil.Empilhar(c);
+                    if (pil.EstaVazia())
+                        pil.Empilhar(c);
+                    else
+                    {
+                        
+                        if(haPrecedencia(pil.OTopo(),c))
+                        {
+                            if ( c == ')')
+                            {
+                                while (!pil.EstaVazia() && pil.OTopo() != '(')
+                                {
+                                    posfix += pil.Desempilhar();
+                                }
+                            }
+                            else
+                            {
+                                posfix += pil.Desempilhar();
+                                pil.Empilhar(c);
+                            }
+                        }
+                        else
+                        {
+                            pil.Empilhar(c);
+                        }
+                    }
                 }
+                else
+                    posfix += c;
             }
+            return posfix;
             
+        }
+
+        private bool haPrecedencia(char c, char v)
+        {
+            if (c == v)
+                return true;
+            if (c == '(')
+                return true;
+            if (c == '^' && v != '(')
+                return true;
+            if ((c == '/' || c == '*') && v != '(' && v != '^')
+                return true;
+            return false;
+        
         }
     }
 }
