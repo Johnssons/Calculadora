@@ -45,13 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FilaLista.cs" />
+    <Compile Include="FilaVaziaException.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IQueue.cs" />
     <Compile Include="IStack.cs" />
+    <Compile Include="ListaSimples.cs" />
     <Compile Include="NoLista.cs" />
     <Compile Include="PilhaLista.cs" />
     <Compile Include="PilhaVaziaException.cs" />

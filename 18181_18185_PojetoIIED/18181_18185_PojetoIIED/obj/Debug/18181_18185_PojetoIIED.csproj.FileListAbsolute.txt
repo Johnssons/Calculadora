@@ -8,3 +8,13 @@ C:\Users\u18181\source\repos\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\D
 C:\Users\u18181\source\repos\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.csproj.CoreCompileInputs.cache
 C:\Users\u18181\source\repos\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.exe
 C:\Users\u18181\source\repos\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.pdb
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\bin\Debug\18181_18185_PojetoIIED.exe.config
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\bin\Debug\18181_18185_PojetoIIED.exe
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\bin\Debug\18181_18185_PojetoIIED.pdb
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.csprojAssemblyReference.cache
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\_18181_18185_PojetoIIED.Form1.resources
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\_18181_18185_PojetoIIED.Properties.Resources.resources
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.csproj.GenerateResource.cache
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.exe
+C:\Users\User\Desktop\CalculadoraC--master\18181_18185_PojetoIIED\18181_18185_PojetoIIED\obj\Debug\18181_18185_PojetoIIED.pdb
